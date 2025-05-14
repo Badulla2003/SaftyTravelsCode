@@ -18,7 +18,7 @@ import com.booking.service.RouteService;
 import com.booking.service.TicketBookingService;
 
 @SpringBootApplication
-public class BusBookingApplication {
+public class BusBookingApplications {
 	
     @Autowired
     BusService busService;
@@ -31,7 +31,7 @@ public class BusBookingApplication {
     
 
 	public static void main(String[] args) {
-		SpringApplication.run(BusBookingApplication.class, args);
+		SpringApplication.run(BusBookingApplications.class, args);
 
 		
 	}
