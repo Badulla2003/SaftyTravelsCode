@@ -8,6 +8,7 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.CacheManager;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.booking.model.Bus;
 import com.booking.model.Passanger;
@@ -18,6 +19,7 @@ import com.booking.service.RouteService;
 import com.booking.service.TicketBookingService;
 
 @SpringBootApplication
+//@CrossOrigin("https://badulla2003.github.io")
 public class BusBookingApplications {
 	
     @Autowired
