@@ -10,21 +10,5 @@ import com.booking.model.Route;
 
 @Configuration
 public class AppConfig {
-//    @Bean
-//    @Scope("prototype")
-//    protected Bus getBus() {
-//		return new Bus();
-//	}
-//    
-//    @Bean
-//    @Scope("prototype")
-//    protected Route getRoute() {
-//    	return new Route();
-//    }
-//    
-//    @Bean
-//    @Scope("prototype")
-//    protected Passanger getPassanger()  {
-//		return new Passanger();
-//	}
+
 }
