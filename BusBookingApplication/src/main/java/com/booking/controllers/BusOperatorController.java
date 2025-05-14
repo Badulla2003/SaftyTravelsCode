@@ -19,7 +19,7 @@ import com.booking.service.RouteService;
 import com.booking.service.SeatService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://Badulla2003.github.io")
 public class BusOperatorController {
 	
 

@@ -1,5 +1,6 @@
 package com.booking.controllers;
 
+import java.awt.SystemTray;
 import java.time.LocalDate;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +27,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://Badulla2003.github.io")
 public class CustomerController {
 
 	@Autowired
@@ -152,4 +153,5 @@ public class CustomerController {
 		}
 		return null;
 	}
+
 }
