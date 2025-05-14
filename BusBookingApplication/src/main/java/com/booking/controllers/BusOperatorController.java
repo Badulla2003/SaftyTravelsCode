@@ -90,10 +90,6 @@ public class BusOperatorController {
 		System.out.println("Working with the port and saying hi");
 		return "hi";
 	}
-   
-	@GetMapping("/")
-	public String hi() {
-		return "Hello world";
-	}
+
 	
 }
