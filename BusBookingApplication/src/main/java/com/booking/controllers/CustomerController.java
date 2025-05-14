@@ -27,7 +27,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
-//@CrossOrigin(origins = "https://badulla2003.github.io")
 public class CustomerController {
 
 	@Autowired

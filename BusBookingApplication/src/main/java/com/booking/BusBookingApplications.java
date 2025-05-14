@@ -19,7 +19,6 @@ import com.booking.service.RouteService;
 import com.booking.service.TicketBookingService;
 
 @SpringBootApplication
-//@CrossOrigin("https://badulla2003.github.io")
 public class BusBookingApplications {
 	
     @Autowired
