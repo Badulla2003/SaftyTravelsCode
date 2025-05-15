@@ -88,7 +88,7 @@ public class BusOperatorController {
 	@GetMapping("/sayHi")
 	public String sayHi() {
 		System.out.println("Working with the port and saying hi");
-		return "hi";
+		return "hi world";
 	}
 
 	
